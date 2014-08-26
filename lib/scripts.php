@@ -11,7 +11,7 @@
  * 3. /theme/assets/js/main.min.js (in footer)
  */
 function roots_scripts() {
-  wp_enqueue_style('roots_main', get_template_directory_uri() . '/assets/css/main.min.css', false, 'c9f2155733c68254f446eb06faa23581');
+  wp_enqueue_style('roots_main', get_template_directory_uri() . '/assets/css/main.min.css', false, 'a2d8138d8d3ffaf880ba923599c4eb7f');
 
   // jQuery is loaded using the same method from HTML5 Boilerplate:
   // Grab Google CDN's latest jQuery with a protocol relative URL; fallback to local if offline
@@ -35,7 +35,7 @@ function roots_scripts() {
 add_action('wp_enqueue_scripts', 'roots_scripts', 100);
 
 // http://wordpress.stackexchange.com/a/12450
-function roots_jquery_local_fallback($src, $handle) {
+function roots_jquery_local_fallback($src, $handle = null) {
   static $add_jquery_fallback = false;
 
   if ($add_jquery_fallback) {
@@ -49,6 +49,7 @@ function roots_jquery_local_fallback($src, $handle) {
 
   return $src;
 }
+add_action('wp_head', 'roots_jquery_local_fallback');
 
 function roots_google_analytics() { ?>
 <script>
@@ -61,6 +62,6 @@ function roots_google_analytics() { ?>
 </script>
 
 <?php }
-if (GOOGLE_ANALYTICS_ID) {
+if (GOOGLE_ANALYTICS_ID && !current_user_can('manage_options')) {
   add_action('wp_footer', 'roots_google_analytics', 20);
 }

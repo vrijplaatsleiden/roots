@@ -1,5 +1,5 @@
 /*!
- * Roots 6.4.0
+ * Roots 6.5.0
  */
 
 @import "bootstrap/bootstrap.less";
@@ -12,19 +12,25 @@ body { }
 
 
 
-/* =============================================================================
+/* ==========================================================================
    Header
    ========================================================================== */
 
 .banner { }
 
 
+/* ==========================================================================
+   Logo
+   ========================================================================== */
+
+.logo { }
+
 
 /* ==========================================================================
    Content
    ========================================================================== */
 
-.content { }
+.content { background-color: @brand-white }
 
 
 
@@ -32,29 +38,87 @@ body { }
    Primary Content
    ========================================================================== */
 
-.main { }
+.main {
+  padding: 0px;
+}
 
 /* Gallery Shortcode */
 .gallery-row { padding: 15px 0; }
 
+/* ==========================================================================
+   Page Image
+   ========================================================================== */
 
+.page-image img { 
+  display: inline-block;
+  height: auto;
+  max-width: 100%;
+  margin-right: -30px;
+  margin-top: -30px;
+  z-index: 999;
+  opacity: .99;
+  position: relative;
+}
+
+/* ==========================================================================
+   Page Image
+   ========================================================================== */
+
+.page-header, .page-content {
+  padding: @grid-gutter-width;
+}
 
 /* ==========================================================================
    Sidebar
    ========================================================================== */
 
-.sidebar { }
+.sidebar {
+}
+.thumb {
+  margin-top:  15px;
+  color: @brand-white;
+}
 
+.thumb img {
+  width: 180px;
+  height: 180px;
+}
+
+.thumb h2 {
+  font-size: 28px;
+  font-weight: 200;
+  margin-top: 5px;
+  padding:    15px;
+}
+
+.slogan {
+  background-color: @brand-blue;
+  margin-right: -15px;
+}
 
 
 /* ==========================================================================
    Posts
    ========================================================================== */
 
-.hentry header { }
+.hentry header, .page-header {
+  width: 95%;
+  margin-left: 0px;
+  margin-top: -75px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  background-color: @brand-red;
+  z-index: 1000;
+  position: relative;
+}
 .hentry time { }
 .hentry .byline { }
-.hentry .entry-content { }
+.hentry .entry-content {
+  padding-top: 30px;
+
+}
 .hentry footer { }
 
 
@@ -83,8 +147,11 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
    Media Queries
    ========================================================================== */
 
-@media (min-width: @screen-sm) { }
 
-@media (min-width: @screen-md) { }
+@media (min-width: @screen-sm) {
+}
+
+@media (min-width: @screen-md) {
+}
 
 @media (min-width: @screen-lg) { }
