@@ -24,46 +24,66 @@
         </aside><!-- /.sidebar -->
       <!-- <?php endif; ?> -->
         <aside class="sidebar col-md-2">
+          <a href="#"> 
           <div class="thumb">
             <img width="180" height="180" src="/wp-content/uploads/static/KWJreunie.-sept2013-71.jpg"></img>
           </div>
+          </a>
 
+          <a href="#">
           <div class="thumb">
             <img width="180" height="180" src="/wp-content/uploads/static/421815_138013896397880_935531121_n.jpg"></img>
           </div>
+          </a>
 
+          <a href="#">
           <div class="thumb slogan">
 	    <h2>Elke zaterdag veganistisch eetcafé</h2>
           </div>
+          </a>
 
+          <a href="#">
           <div class="thumb">
             <img width="180" height="180"src="/wp-content/uploads/static/KWJreunie.-sept2013-71.jpg"></img>
           </div>
+          </a>
 
+          <a href="#">
           <div class="thumb">
             <img width="180" height="180"src="/wp-content/uploads/static/KWJ4.jpg"></img>
           </div>
+          </a>
 
         </aside>
         <aside class="sidebar col-md-2">
+          <a href="#">
           <div class="thumb slogan">
             <h2>Doneer nu voor de concertzaal</h2>
           </div>
+          </a>
 
+          <a href="#">
          <div class="thumb">
            <img width="180" height="180" src="/wp-content/uploads/static/KWJreunie.-sept2013-71.jpg"></img>
          </div>
+          </a>
+
           <div class="thumb">
             <img width="180" height="180" rc="/wp-content/uploads/static/KWJ4.jpg"></img>
           </div>
+          </a>
 
+          <a href="#">
           <div class="thumb">
             <img width="180" height="180" rc="/wp-content/uploads/static/KWJreunie.-sept2013-71.jpg"></img>
           </div>
-          
+          </a>
+
+          <a href="#">          
           <div class="thumb">
             <img width="180" height="180" rc="/wp-content/uploads/static/KWJreunie.-sept2013-71.jpg"></img>
           </div>
+          </a>
 
         </aside>
     </div><!-- /.content -->
