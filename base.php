@@ -23,8 +23,10 @@
           <?php include roots_sidebar_path(); ?>
         </aside><!-- /.sidebar -->
       <!-- <?php endif; ?> -->
+      <div class="siderow">
+      <div class="searchblock"><?php get_search_form(); ?></div>
         <aside class="sidebar col-md-2">
-          <a href="#"> 
+          <a href="#">
           <div class="thumb">
             <img width="180" height="180" src="/wp-content/uploads/static/KWJreunie.-sept2013-71.jpg"></img>
           </div>
@@ -79,13 +81,14 @@
           </div>
           </a>
 
-          <a href="#">          
+          <a href="#">
           <div class="thumb">
             <img width="180" height="180" rc="/wp-content/uploads/static/KWJreunie.-sept2013-71.jpg"></img>
           </div>
           </a>
 
         </aside>
+      </div>
     </div><!-- /.content -->
   </div><!-- /.wrap -->
 
