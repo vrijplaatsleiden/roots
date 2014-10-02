@@ -28,13 +28,13 @@
         <aside class="sidebar col-md-2">
           <a href="#">
           <div class="thumb">
-            <img width="180" height="180" src="/wp-content/uploads/static/KWJreunie.-sept2013-71.jpg"></img>
+            <img src="/wp-content/uploads/static/KWJreunie.-sept2013-71.jpg"></img>
           </div>
           </a>
 
           <a href="#">
           <div class="thumb">
-            <img width="180" height="180" src="/wp-content/uploads/static/421815_138013896397880_935531121_n.jpg"></img>
+            <img src="/wp-content/uploads/static/421815_138013896397880_935531121_n.jpg"></img>
           </div>
           </a>
 
@@ -46,13 +46,13 @@
 
           <a href="#">
           <div class="thumb">
-            <img width="180" height="180"src="/wp-content/uploads/static/KWJreunie.-sept2013-71.jpg"></img>
+            <img src="/wp-content/uploads/static/KWJreunie.-sept2013-71.jpg"></img>
           </div>
           </a>
 
           <a href="#">
           <div class="thumb">
-            <img width="180" height="180"src="/wp-content/uploads/static/KWJ4.jpg"></img>
+            <img src="/wp-content/uploads/static/KWJ4.jpg"></img>
           </div>
           </a>
 
@@ -66,24 +66,24 @@
 
           <a href="#">
          <div class="thumb">
-           <img width="180" height="180" src="/wp-content/uploads/static/KWJreunie.-sept2013-71.jpg"></img>
+           <img src="/wp-content/uploads/static/KWJreunie.-sept2013-71.jpg"></img>
          </div>
           </a>
 
           <div class="thumb">
-            <img width="180" height="180" rc="/wp-content/uploads/static/KWJ4.jpg"></img>
+            <img src="/wp-content/uploads/static/KWJ4.jpg"></img>
           </div>
           </a>
 
           <a href="#">
           <div class="thumb">
-            <img width="180" height="180" rc="/wp-content/uploads/static/KWJreunie.-sept2013-71.jpg"></img>
+            <img src="/wp-content/uploads/static/KWJreunie.-sept2013-71.jpg"></img>
           </div>
           </a>
 
           <a href="#">
           <div class="thumb">
-            <img width="180" height="180" rc="/wp-content/uploads/static/KWJreunie.-sept2013-71.jpg"></img>
+            <img src="/wp-content/uploads/static/KWJreunie.-sept2013-71.jpg"></img>
           </div>
           </a>
 
